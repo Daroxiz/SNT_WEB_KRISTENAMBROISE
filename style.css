@@ -1,0 +1,23 @@
+body {
+    background-color: lightblue;
+    font-family: Times New Roman;
+	
+}
+h1 {
+  color: white;
+}
+
+p {
+  color: white;
+}
+h2 {
+	color : red;
+}
+button {
+  background-color: #3498db; /* Couleur de fond (bleu) */
+  color: #ffffff;            /* Couleur du texte (blanc) */
+  padding: 10px 20px;        /* Espacement interne */
+  border: none;              /* Supprimer la bordure */
+  border-radius: 5px;        /* Arrondir les coins */
+  cursor: pointer;           /* Curseur en forme de main */
+}
