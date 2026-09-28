@@ -1,5 +1,6 @@
 body {
     background-color: rgb(167, 233, 255);
+     transition: background 0.3s, color 0.3s; /* Rend le changement fluide */
     font-family: Times New Roman;
 	
 }
@@ -20,4 +21,9 @@ button {
   border: none;              /* Supprimer la bordure */
   border-radius: 5px;        /* Arrondir les coins */
   cursor: pointer;           /* Curseur en forme de main */
+}
+/* Nouvelle interface (Sombre) */
+body.dark-mode {
+  background-color: #770000;
+  color: #ffffff;
 }
