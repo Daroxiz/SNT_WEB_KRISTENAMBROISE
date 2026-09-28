@@ -19,6 +19,14 @@ function changerTexte() {
     document.getElementById("texte").innerHTML = "Ambroise Kristen";
 }
 </script>
+// 1. On sélectionne le bouton
+const evil and dark bunny = document.getElementById('theme-toggle');
+
+// 2. On écoute le clic sur ce bouton
+evil and dark bunny.addEventListener('click', () => {
+  // 3. On ajoute ou on retire la classe "dark-mode" du body
+  document.body.classList.toggle('dark-mode');
+});
 
 </body>
 </html>
